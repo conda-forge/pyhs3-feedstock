@@ -24,6 +24,13 @@ requirements:
     - hatch-vcs
   run:
     - python >=${{ python_min }}
+    - rich
+    - rustworkx
+    - pytensor
+    - typing-extensions
+    - setuptools >= 59
+    - numpy < 2
+    - sympy
 
 tests:
   - python:
