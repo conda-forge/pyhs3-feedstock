@@ -28,8 +28,8 @@ requirements:
     - rustworkx
     - pytensor
     - typing-extensions
-    - setuptools >= 59
-    - numpy < 2
+    - setuptools >=59
+    - numpy <2
     - sympy
 
 tests:
