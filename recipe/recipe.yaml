@@ -26,7 +26,7 @@ requirements:
     - python >=${{ python_min }}
     - rich
     - rustworkx
-    - pytensor >= 2.28.2
+    - pytensor >=2.28.2
     - typing-extensions
     - setuptools >=59
     - numpy
