@@ -1,7 +1,7 @@
 context:
   name: pyhs3
   version: "0.3.0"
-  python_min: "3.9"
+  python_min: "3.10"
 
 package:
   name: ${{ name|lower }}
@@ -26,11 +26,12 @@ requirements:
     - python >=${{ python_min }}
     - rich
     - rustworkx
-    - pytensor
+    - pytensor >= 2.28.2
     - typing-extensions
     - setuptools >=59
-    - numpy <2
+    - numpy
     - sympy
+    - pydantic
 
 tests:
   - python:
