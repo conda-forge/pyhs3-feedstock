@@ -27,8 +27,6 @@ requirements:
     - rich
     - rustworkx
     - pytensor >=2.33.0
-    - typing-extensions
-    - setuptools >=59
     - numpy
     - sympy
     - pydantic
