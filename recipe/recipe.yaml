@@ -1,6 +1,6 @@
 context:
   name: pyhs3
-  version: "0.4.1"
+  version: "0.4.2"
   python_min: "3.10"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 163f19b3241ad3e0dbd5417543e78a09b6c6b9b4071275ac8a806ddc18bcd044
+  sha256: 1a2eb45bd2c4b028902918b692ea7333b39359c688f3252ea9170b16d967de1f
 
 build:
   noarch: python
